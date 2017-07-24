@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_by_top_label</item>
+        <item>@string/settings_order_by_most_recent_label</item>
+        <item>@string/settings_order_by_popular_label</item>
+    </string-array>
+
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_by_top_value</item>
+        <item>@string/settings_order_by_most_recent_value</item>
+        <item>@string/settings_order_by_popular_value</item>
+    </string-array>
+
+    <string-array name="settings_sources_labels">
+        <item>@string/settings_sources_time_label</item>
+        <item>@string/settings_sources_techcrunch_label</item>
+        <item>@string/settings_sources_new_york_times_label</item>
+        <item>@string/settings_sources_the_hindu_label</item>
+        <item>@string/settings_sources_bbc_news_label</item>
+        <item>@string/settings_sources_espn_label</item>
+        <item>@string/settings_sources_cnn_label</item>
+        <item>@string/settings_sources_bloomberg_label</item>
+        <item>@string/settings_sources_mashable_label</item>
+    </string-array>
+
+    <string-array name="settings_sources_values">
+        <item>@string/settings_sources_time_value</item>
+        <item>@string/settings_sources_techcrunch_value</item>
+        <item>@string/settings_sources_new_york_times_value</item>
+        <item>@string/settings_sources_the_hindu_value</item>
+        <item>@string/settings_sources_bbc_news_value</item>
+        <item>@string/settings_sources_espn_value</item>
+        <item>@string/settings_sources_cnn_value</item>
+        <item>@string/settings_sources_bloomberg_value</item>
+        <item>@string/settings_sources_mashable_value</item>
+    </string-array>
+</resources>

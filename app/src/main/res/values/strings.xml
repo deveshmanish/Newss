@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="api_key">85a90e883c17491ebba939fbc1618f19</string>
+    <string name="URL_SOURCES">https://newsapi.org/v1/sources?language=en</string>
+    <string name="URL_ARTICLES"> https://newsapi.org/v1/articles?</string>
+    <string name="no_internet">No Internet Access Found</string>
+    <string name="no_news">No articles found.</string>
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">News Settings</string>
+    <!-- Strings For Minimum Magnitude Preference [CHAR LIMIT=30] -->
+    <string name="settings_sources_label">Sources</string>
+    <string name="settings_sources_key" translatable="false">source</string>
+    <string name="settings_sources_default" translatable="false">@string/settings_sources_time_value</string>
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">sortBy</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_top_value</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_top_label">Top</string>
+    <string name="settings_order_by_top_value" translatable="false">top</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_recent_label">Most Recent</string>
+    <string name="settings_order_by_most_recent_value" translatable="false">latest</string>
+
+    <string name="settings_order_by_popular_label">Popular</string>
+    <string name="settings_order_by_popular_value" translatable="false">popular</string>
+
+    <string name="settings_sources_time_label">Times of India</string>
+    <string name="settings_sources_time_value" translatable="false">time</string>
+
+    <string name="settings_sources_new_york_times_label">The New York Times</string>
+    <string name="settings_sources_new_york_times_value" translatable="false">the-new-york-times</string>
+
+    <string name="settings_sources_techcrunch_label">TechCrunch</string>
+    <string name="settings_sources_techcrunch_value" translatable="false">techcrunch</string>
+
+    <string name="settings_sources_the_hindu_label">The Hindu</string>
+    <string name="settings_sources_the_hindu_value" translatable="false">the-hindu</string>
+
+    <string name="settings_sources_bbc_news_label">BBC News</string>
+    <string name="settings_sources_bbc_news_value" translatable="false">bbc-news</string>
+
+    <string name="settings_sources_bloomberg_label">Bloomberg</string>
+    <string name="settings_sources_bloomberg_value" translatable="false">bloomberg</string>
+
+    <string name="settings_sources_cnn_label">CNN</string>
+    <string name="settings_sources_cnn_value" translatable="false">cnn</string>
+
+    <string name="settings_sources_espn_label">ESPN</string>
+    <string name="settings_sources_espn_value" translatable="false">espn</string>
+
+    <string name="settings_sources_mashable_label">Mashable</string>
+    <string name="settings_sources_mashable_value" translatable="false">mashable</string>
+
+
+</resources>

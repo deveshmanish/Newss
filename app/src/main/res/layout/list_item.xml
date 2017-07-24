@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Title of the news"
+        android:textAppearance="@style/titleText"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:ellipsize="end"
+        android:maxLines="2"/>
+
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Author "
+            android:textAppearance="@style/authorText"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Time"
+            android:textAppearance="@style/authorText"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="3"
+        tools:text="Long placeholder text to occupy more than two lines of news so that we can make it short as requred by us.Still word limit remains so we will try."
+        android:textAppearance="@style/descriptionText"
+        android:paddingTop="4dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"/>
+
+
+</LinearLayout>
